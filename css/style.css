@@ -42,6 +42,15 @@ h3{
   margin-top: 2.5rem;
 }
 
+.link-negro a {
+  color: black;
+  font-size: 1.1rem;
+}
+
+.listado-cursos {
+  margin-top: 2rem;
+}
+
 
 
 /* CUSTOMIZE THE CAROUSEL
