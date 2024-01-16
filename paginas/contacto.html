@@ -34,8 +34,7 @@
                 <!-- Navbar Links -->
                 <div class="collapse navbar-collapse" id="navbarCollapse">
                     <ul class="navbar-nav me-auto mb-2 mb-md-0">
-                        <li class="nav-item"><a class="nav-link active" aria-current="page"
-                                href="nosotros.html">El
+                        <li class="nav-item"><a class="nav-link active" aria-current="page" href="nosotros.html">El
                                 GRAM</a></li>
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" href="#" id="escuelaDropdown" role="button"
@@ -56,15 +55,18 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="cursosDropdown">
                                 <li><a class="dropdown-item" href="cursoied.html">Curso Iniciación a la
-                                    Escalada Deportiva</a></li>
+                                        Escalada Deportiva</a></li>
                                 <li><a class="dropdown-item" href="cursoied2.html">Curso Escalada
-                                    Deportiva Multilargo - Nivel 2</a></li>
+                                        Deportiva Multilargo - Nivel 2</a></li>
                                 <li><a class="dropdown-item" href="cursoroca.html">Curso Escalada en Roca</a></li>
-                                <li><a class="dropdown-item" href="cursohielo.html">Curso de Escalada en Hielo y Transito Glaciar</a></li>
+                                <li><a class="dropdown-item" href="cursohielo.html">Curso de Escalada en Hielo y
+                                        Transito Glaciar</a></li>
                                 <li><a class="dropdown-item" href="cursoesqui.html">Curso de Esqui de Montaña</a></li>
-                                <li><a class="dropdown-item" href="tallerautorescate.html">Taller de Autorescate Nivel 1 y 2</a></li>
-                                <li><a class="dropdown-item" href="cursomontanismo.html">Curso de Iniciación al Montañismo / Andinismo de Altitud</a></li>
-                              </ul>
+                                <li><a class="dropdown-item" href="tallerautorescate.html">Taller de Autorescate Nivel 1
+                                        y 2</a></li>
+                                <li><a class="dropdown-item" href="cursomontanismo.html">Curso de Iniciación al
+                                        Montañismo / Andinismo de Altitud</a></li>
+                            </ul>
                         </li>
                         <li class="nav-item"><a class="nav-link" href="casona.html">Instalaciones</a></li>
                         <li class="nav-item"><a class="nav-link" href="noticias.html">Noticias</a></li>
@@ -78,13 +80,39 @@
 
     <main>
 
+        <div class="container featurette mt-5 col-4">
+            <h2 class="featurette-heading fw-normal lh-1 mb-5">Formulario de Contacto</h2>
+            <form>
+                <div class="mb-3">
+                    <label for="nombre" class="form-label">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" name="nombre" required>
+                </div>
+                <div class="mb-3">
+                    <label for="apellido" class="form-label">Apellido</label>
+                    <input type="text" class="form-control" id="apellido" name="apellido" required>
+                </div>
+                <div class="mb-3">
+                    <label for="email" class="form-label">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="email" name="email" required>
+                </div>
+                <div class="mb-3">
+                    <label for="ciudad" class="form-label">Ciudad</label>
+                    <input type="text" class="form-control" id="ciudad" name="ciudad" required>
+                </div>
+                <div class="mb-3">
+                    <label for="mensaje" class="form-label">Mensaje</label>
+                    <textarea class="form-control" id="mensaje" name="mensaje" rows="4" required></textarea>
+                </div>
+                <button type="submit" class="btn btn-secondary">Enviar</button>
+            </form>
+        </div>
 
-        <footer class="container-fluid bg-dark text-light py-1 mt-auto w-100">
+        <footer class="container-fluid bg-dark text-light py-1 mt-4 w-100">
             <div>
                 <p class="mb-0">&copy; 1983–2024 Grupo Rosarino de Actividades de Montaña &middot;</p>
             </div>
         </footer>
-        
+
     </main>
 
 </body>
