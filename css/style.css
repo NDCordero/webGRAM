@@ -15,13 +15,6 @@ main {
   overflow-x: hidden;
 }
 
-footer{
-  font-size: small;
-  margin-top: 2rem;
-
-}
-
-
 
 
 /* MIS ESTILOS
@@ -154,8 +147,19 @@ h3 {
 
 /* RESPONSIVE
 -------------------------------------------------- */
+@media (min-width: 320px) {
+  footer {
+    font-size: smaller;
+  }
+
+  .row {
+    margin-right: 2rem;
+  }
+}
+
+
 @media (min-width: 375px) {
-  footer{
+  footer {
     font-size: smaller;
   }
 
@@ -163,7 +167,7 @@ h3 {
     margin-right: 2rem;
   }
 
-  }
+}
 
 
 
@@ -189,6 +193,15 @@ h3 {
     font-size: 0.7rem;
     width: max-content;
   }
+
+  footer {
+    font-size: small;
+    margin-top: 2rem;
+  }
+
+  .marketing .col-lg-4 {
+    margin-left: 2rem;
+  }
 }
 
 
@@ -196,6 +209,10 @@ h3 {
   .nav-link {
     font-size: 0.8rem;
     width: max-content;
+  }
+
+  .marketing .col-lg-4 {
+    margin-left: 0rem;
   }
 }
 
