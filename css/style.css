@@ -11,10 +11,14 @@ body {
 
 main {
   flex-grow: 1;
+  width: 100%;
+  overflow-x: hidden;
 }
 
 footer{
   font-size: small;
+  margin-top: 2rem;
+
 }
 
 
@@ -63,12 +67,9 @@ h3 {
   margin-top: 2rem;
 }
 
-footer {
-  margin-top: 2rem;
-}
-
 .container {
-  margin-left: 5rem;
+  margin-left: 2rem;
+  margin-right: 3rem;
 }
 
 .imagen-circular {
@@ -153,6 +154,18 @@ footer {
 
 /* RESPONSIVE
 -------------------------------------------------- */
+@media (min-width: 375px) {
+  footer{
+    font-size: smaller;
+  }
+
+  .row {
+    margin-right: 2rem;
+  }
+
+  }
+
+
 
 
 @media (min-width: 576px) {
