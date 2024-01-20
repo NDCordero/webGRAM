@@ -152,8 +152,12 @@ h3 {
     font-size: smaller;
   }
 
-  .row {
-    margin-right: 2rem;
+  .navbar-brand img {
+    max-width: 60%;
+  }
+
+  .container {
+    max-width: 85%;
   }
 }
 
@@ -162,11 +166,6 @@ h3 {
   footer {
     font-size: smaller;
   }
-
-  .row {
-    margin-right: 2rem;
-  }
-
 }
 
 
@@ -194,6 +193,10 @@ h3 {
     width: max-content;
   }
 
+  .navbar-brand img {
+    max-width: 80%;
+  }
+
   footer {
     font-size: small;
     margin-top: 2rem;
@@ -209,6 +212,10 @@ h3 {
   .nav-link {
     font-size: 0.8rem;
     width: max-content;
+  }
+
+  .navbar-brand img {
+    max-width: 100%;
   }
 
   .marketing .col-lg-4 {
