@@ -127,12 +127,6 @@ h3 {
   margin: 5rem 0;
 }
 
-.featurette-heading {
-  color: #007BFF;
-  letter-spacing: -.05rem;
-  margin-top: 14rem;
-}
-
 .featurette p {
   line-height: 1.6;
   margin-bottom: 20px;
@@ -150,6 +144,12 @@ h3 {
 @media (min-width: 320px) {
   footer {
     font-size: smaller;
+  }
+
+  .featurette-heading {
+    color: #007BFF;
+    letter-spacing: -.05rem;
+    margin-top: 7rem;
   }
 
   .navbar-brand img {
@@ -178,6 +178,11 @@ h3 {
     line-height: 1.4;
   }
 
+  .featurette-heading {
+    color: #007BFF;
+    letter-spacing: -.05rem;
+    margin-top: 10rem;
+  }
 
   .featurette-heading {
     font-size: 2rem;
@@ -220,6 +225,12 @@ h3 {
 
   .marketing .col-lg-4 {
     margin-left: 0rem;
+  }
+
+  .featurette-heading {
+    color: #007BFF;
+    letter-spacing: -.05rem;
+    margin-top: 12rem;
   }
 }
 
