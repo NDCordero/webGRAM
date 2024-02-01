@@ -39,6 +39,10 @@ iframe {
   margin-top: 3rem;
 }
 
+h2 {
+  color: #001b80;
+  margin-bottom: 3rem;
+}
 
 h3 {
   font-size: 1.5rem;
@@ -147,7 +151,7 @@ h3 {
   }
 
   .featurette-heading {
-    color: #007BFF;
+    color: #001b80;
     letter-spacing: -.05rem;
     margin-top: 7rem;
   }
@@ -179,7 +183,7 @@ h3 {
   }
 
   .featurette-heading {
-    color: #007BFF;
+    color: #001b80;
     letter-spacing: -.05rem;
     margin-top: 10rem;
   }
@@ -228,7 +232,7 @@ h3 {
   }
 
   .featurette-heading {
-    color: #007BFF;
+    color: #001b80;
     letter-spacing: -.05rem;
     margin-top: 12rem;
   }
